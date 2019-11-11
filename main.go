@@ -57,7 +57,6 @@ func translate_ip_and_mask_to_range(value string) (string, error) {
 	sb.WriteString(range_start)
 	sb.WriteString("-")
 	sb.WriteString(range_end)
-	sb.WriteString(";")
 	formatted_range_str := sb.String()
 
 	return formatted_range_str, nil
